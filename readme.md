@@ -3,6 +3,17 @@
 ## See keyboards/keychron/k9_pro/ansi/rgb/keymaps for the keymap.c files
 ## Also a compiled hex/binary file of my configuration is in this repo
 
+```
+[L_FN1] = LAYOUT_61_ansi(
+        _______,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   _______,
+        _______,  KC_BTN2,   KC_UP,    KC_BTN1,  _______,  _______,  _______,  _______,  _______,  KC_WH_U, KC_MS_U,  KC_WH_D,  _______,  KC_BTN2,
+        _______,  KC_LEFT,  KC_DOWN,  KC_RIGHT,  _______,  _______,  _______,  _______,  _______,  KC_MS_L, KC_MS_D,  KC_MS_R,            KC_BTN1,
+        _______,            _______,   _______,  _______,  _______,  BAT_LVL,  _______,  _______,  _______, _______,  _______,              KC_UP,
+        _______,  _______,  _______,                                _______,                                _______,  KC_LEFT,  KC_DOWN,  KC_RIGHT),
+    };
+```
+
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/Uq7gcHh)
 [![Docs Status](https://img.shields.io/badge/docs-ready-orange.svg)](https://docs.qmk.fm)
