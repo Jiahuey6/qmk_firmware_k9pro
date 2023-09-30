@@ -50,3 +50,14 @@
 #    define CKLED2001_CURRENT_TUNE \
         { 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28 }
 #endif
+
+/*Mouse key configuration*/
+#define MK_VARIANT MK_TYPE_KINETIC
+
+#define MK_KINETIC_MOUSE_MAXS 23
+#define MK_KINETIC_MOUSE_ACCN 30
+#define MK_KINETIC_MOUSE_FRIC 18
+#define MK_KINETIC_MOUSE_DRAG 18
+
+#define MK_KINETIC_WHEEL_MAXS 1
+#define MK_KINETIC_WHEEL_ACCN 32
